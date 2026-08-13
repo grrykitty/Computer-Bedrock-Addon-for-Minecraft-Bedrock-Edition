@@ -3,7 +3,7 @@
   "header": {
     "description": "Computer Addon - Add PC components and craftable computers to your world!",
     "name": "Computer Addon",
-    "uuid": "12345678-1234-1234-1234-123456789012",
+    "uuid": "8f4b3d12-5e8a-4c2b-9d1f-7a6e5c8b2d4f",
     "version": [1, 0, 0],
     "min_engine_version": [1, 19, 0]
   },
@@ -11,13 +11,13 @@
     {
       "description": "Computer Addon Behavior",
       "type": "data",
-      "uuid": "87654321-4321-4321-4321-210987654321",
+      "uuid": "5c8f2a1e-9d4b-4e6c-8f3a-7b2d5e9c1a4f",
       "version": [1, 0, 0]
     },
     {
       "description": "Computer Addon Resources",
       "type": "resources",
-      "uuid": "11111111-2222-3333-4444-555555555555",
+      "uuid": "3a7e2f1b-4c8d-5e9a-6f2d-1b4e7a9c3d5f",
       "version": [1, 0, 0]
     }
   ]
