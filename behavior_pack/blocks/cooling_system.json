@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "computer:cooling_system",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:explosion_resistance": 2.5,
+      "minecraft:friction": 0.4,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cooling_system",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}
