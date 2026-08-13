@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipe:craft_gaming_pc"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "GRM",
+      "PSC",
+      "GRM"
+    ],
+    "key": {
+      "G": {
+        "item": "computer:gpu_block"
+      },
+      "R": {
+        "item": "computer:ram_block"
+      },
+      "M": {
+        "item": "computer:motherboard"
+      },
+      "P": {
+        "item": "computer:power_supply"
+      },
+      "S": {
+        "item": "computer:storage_block"
+      },
+      "C": {
+        "item": "computer:cooling_system"
+      }
+    },
+    "result": {
+      "item": "computer:gaming_pc",
+      "count": 1
+    }
+  }
+}
