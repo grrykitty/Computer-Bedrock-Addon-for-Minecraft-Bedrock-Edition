@@ -1,0 +1,203 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": [
+    {
+      "description": {
+        "identifier": "computer:cpu_block",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 3.5
+        },
+        "minecraft:explosion_resistance": 3.5,
+        "minecraft:friction": 0.4,
+        "minecraft:flammable": {
+          "catch_chance_modifier": 0.1,
+          "destroy_chance_modifier": 0.1
+        },
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "cpu_block",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:ram_block",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 2.5
+        },
+        "minecraft:explosion_resistance": 2.5,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "ram_block",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:storage_block",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 4.0
+        },
+        "minecraft:explosion_resistance": 4.0,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "storage_block",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:gpu_block",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 3.0
+        },
+        "minecraft:explosion_resistance": 3.0,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "gpu_block",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:motherboard",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 2.0
+        },
+        "minecraft:explosion_resistance": 2.0,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "motherboard",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:power_supply",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 3.5
+        },
+        "minecraft:explosion_resistance": 3.5,
+        "minecraft:friction": 0.4,
+        "minecraft:flammable": {
+          "catch_chance_modifier": 0.15,
+          "destroy_chance_modifier": 0.15
+        },
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "power_supply",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:cooling_system",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 2.5
+        },
+        "minecraft:explosion_resistance": 2.5,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "cooling_system",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:assembled_pc",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 5.0
+        },
+        "minecraft:explosion_resistance": 5.0,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "assembled_pc",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:server",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 6.0
+        },
+        "minecraft:explosion_resistance": 6.0,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "server",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "identifier": "computer:gaming_pc",
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 5.5
+        },
+        "minecraft:explosion_resistance": 5.5,
+        "minecraft:friction": 0.4,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "gaming_pc",
+            "render_method": "opaque"
+          }
+        }
+      }
+    }
+  ]
+}
