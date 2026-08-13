@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "computer:power_supply",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.5
+      },
+      "minecraft:explosion_resistance": 3.5,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 0.15,
+        "destroy_chance_modifier": 0.15
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "power_supply",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}
